@@ -30,7 +30,7 @@ void BlockCreate::Create()
 			}
 			Block* block = Instantiate<Block>();
 			//シャッフルした配列(数字)を入れる
-			block->SetPosition(VGet(x * 100 - 100, y * 100 - 100, 0));
+			block->SetPosition(VGet(x * 100 - 100, y * 100 - 200, 0));
 		}
 	}
 }

@@ -56,15 +56,6 @@
     <ClCompile Include="ImGui\imgui_widgets.cpp">
       <Filter>ImGUI</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Light.cpp">
-      <Filter>PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Stage.cpp">
-      <Filter>PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Camera.cpp">
-      <Filter>PlayScene</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Block.cpp">
       <Filter>PlayScene</Filter>
     </ClCompile>
@@ -143,15 +134,6 @@
     </ClInclude>
     <ClInclude Include="ImGui\imstb_truetype.h">
       <Filter>ImGUI</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Light.h">
-      <Filter>PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Stage.h">
-      <Filter>PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Camera.h">
-      <Filter>PlayScene</Filter>
     </ClInclude>
     <ClInclude Include="Source\Block.h">
       <Filter>PlayScene</Filter>
