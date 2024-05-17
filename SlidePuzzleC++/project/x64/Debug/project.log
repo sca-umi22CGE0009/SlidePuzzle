@@ -1,0 +1,52 @@
+﻿2024/05/17 13:15:32 にビルドを開始しました。
+ログの詳細度は次のように設定されています: Normal。     1>ノード 2 上のプロジェクト "C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\project.vcxproj" (Build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "x64\Debug\project.tlog\unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\CL.exe /c /I"C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source\BlockCreate.cpp
+         BlockCreate.cpp
+     1>C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\Source\BlockCreate.cpp(32,51): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\Source\BlockCreate.cpp(32,36): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\x64\Debug\project.exe" /INCREMENTAL /ILK:"x64\Debug\project.ilk" /NOLOGO /LIBPATH:"C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\x64\Debug\project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\x64\Debug\project.lib" /MACHINE:X64 x64\Debug\imgui.obj
+         x64\Debug\imgui_draw.obj
+         x64\Debug\imgui_impl_dx11.obj
+         x64\Debug\imgui_impl_dx9.obj
+         x64\Debug\imgui_impl_win32.obj
+         x64\Debug\imgui_ja_gryph_ranges.obj
+         x64\Debug\imgui_tables.obj
+         x64\Debug\imgui_widgets.obj
+         x64\Debug\app.obj
+         x64\Debug\main.obj
+         x64\Debug\resourceLoader.obj
+         x64\Debug\sceneBase.obj
+         x64\Debug\sceneManager.obj
+         x64\Debug\time.obj
+         x64\Debug\Block.obj
+         x64\Debug\BlockCreate.obj
+         x64\Debug\bootScene.obj
+         x64\Debug\Camera.obj
+         x64\Debug\debugScreen.obj
+         x64\Debug\Light.obj
+         x64\Debug\Player.obj
+         x64\Debug\playScene.obj
+         x64\Debug\sceneFactory.obj
+         x64\Debug\Stage.obj
+         x64\Debug\titleScene.obj
+         project.vcxproj -> C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\x64\Debug\project.exe
+       FinalizeBuildStatus:
+         ファイル "x64\Debug\project.tlog\unsuccessfulbuild" を削除しています。
+         "x64\Debug\project.tlog\project.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\project.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+       "C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\project.vcxproj" (Build ターゲット) (1) ->
+       (ClCompile ターゲット) -> 
+         C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\Source\BlockCreate.cpp(32,51): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+         C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\Source\BlockCreate.cpp(32,36): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+
+    2 個の警告
+    0 エラー
+
+経過時間 00:00:00.95

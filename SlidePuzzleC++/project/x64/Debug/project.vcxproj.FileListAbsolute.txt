@@ -1,0 +1,2 @@
+C:\Users\sasak_i2rhbih\OneDrive\ドキュメント\dice3D\project\x64\Debug\project.exe
+C:\Users\sasak_i2rhbih\OneDrive\デスクトップ\SlidePuzzleC++\project\x64\Debug\project.exe
