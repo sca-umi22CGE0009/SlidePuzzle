@@ -16,9 +16,4 @@ private:
 	VECTOR rotation;
 };
 
-//親クラスを作る
-//そこに９つInstantiateをする
-//playSceneにそのクラスをInstantiateする
-
-
 //int numでナンバーを持たせて合っていたらクリア

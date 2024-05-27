@@ -2,7 +2,8 @@
 #include "../Library/sceneManager.h"
 #include "DebugScreen.h"
 #include <DxLib.h>
-#include "BlockCreate.h""
+#include "BlockCreate.h"
+#include "Player.h"
 
 PlayScene::PlayScene()
 {
@@ -14,6 +15,7 @@ PlayScene::PlayScene()
 
 
 	Instantiate<BlockCreate>();
+	Instantiate<Player>();
 }
 
 

@@ -1,6 +1,7 @@
 #pragma once
 //BlockCreate.h
 #include "../Library/gameObject.h"
+#include "Block.h"
 
 class BlockCreate : public GameObject {
 public:
@@ -9,7 +10,9 @@ public:
 	void Update() override;
 	void Draw() override;
 private:
-	int blockStage = 3;
+	static const int blockStage = 3;
+	Block* blockArray[blockStage][blockStage];
+
 	void Create();
 	//ƒVƒƒƒbƒtƒ‹‚ÌŠÖ”
 };
