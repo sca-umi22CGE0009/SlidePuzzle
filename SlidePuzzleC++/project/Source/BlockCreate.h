@@ -10,8 +10,8 @@ public:
 	void Update() override;
 	void Draw() override;
 private:
-	static const int blockStage = 3;
-	Block* blockArray[blockStage][blockStage];
+	int blockStage = 3;
+	Block* blockArray[3][3];
 
 	void Create();
 	//ƒVƒƒƒbƒtƒ‹‚ÌŠÖ”
