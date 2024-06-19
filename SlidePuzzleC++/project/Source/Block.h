@@ -10,10 +10,15 @@ public:
 	void Draw() override;
 	void SetPosition(VECTOR pos);
 	bool CollLine(VECTOR p1, VECTOR p2, VECTOR* hitPos = nullptr);
+
 private:
 	int hModel;
 	VECTOR position;
 	VECTOR rotation;
+
+	int mouseX, mouseY;
+	VECTOR StartPos, EndPos;
+	MV1_COLL_RESULT_POLY hitPoly;
 };
 
 //int numでナンバーを持たせて合っていたらクリア
