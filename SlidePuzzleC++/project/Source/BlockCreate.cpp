@@ -1,8 +1,12 @@
 #include "BlockCreate.h"
+#include "Block.h"
+#include "../ImGui/imgui.h"
 
 BlockCreate::BlockCreate()
 {
+	blockStage = 3;
 	Create();
+
 }
 
 BlockCreate::~BlockCreate()
@@ -11,11 +15,13 @@ BlockCreate::~BlockCreate()
 
 void BlockCreate::Update()
 {
+	if (CheckHitKey(VK_LBUTTON)) {
+
+	}
 }
 
 void BlockCreate::Draw()
 {
-	DrawFormatString(0, 100, GetColor(255,255,255), "座標Ｘ %d　　座標Ｙ %d", mouseX, mouseY);
 }
 
 void BlockCreate::Create()
@@ -33,7 +39,9 @@ void BlockCreate::Create()
 			Block* block = Instantiate<Block>();
 			block->SetPosition(VGet(x * 100 - 100, y * 100 - 100, 0.0f));
 			GetMousePos();
-			block->CollLine(StartPos, EndPos);
+			block->CollLine(startPos, endPos);
+			//collLineがtrueだったら隣がnullか確認して動かす
+			//falseだったら何もしない
 
 			//確認入れる
 			blockArray[y][x] = block;
@@ -44,10 +52,8 @@ void BlockCreate::Create()
 
 void BlockCreate::GetMousePos()
 {
+	//マウスの当たり判定
 	GetMousePoint(&mouseX, &mouseY);
-	StartPos = ConvScreenPosToWorldPos(VGet(mouseX, mouseY, 0.0f));
-	EndPos = ConvScreenPosToWorldPos(VGet(mouseX, mouseY, 1.0f));
-
-	// モデルと線分との当たり判定
-	//モデルの変数を別のクラスに持ってくる方法
+	startPos = ConvScreenPosToWorldPos(VGet(mouseX, mouseY, 0.0f));
+	endPos = ConvScreenPosToWorldPos(VGet(mouseX, mouseY, 1.0f));
 }

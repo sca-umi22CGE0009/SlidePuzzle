@@ -15,10 +15,6 @@ private:
 	int hModel;
 	VECTOR position;
 	VECTOR rotation;
-
-	int mouseX, mouseY;
-	VECTOR StartPos, EndPos;
-	MV1_COLL_RESULT_POLY hitPoly;
 };
 
 //int numでナンバーを持たせて合っていたらクリア

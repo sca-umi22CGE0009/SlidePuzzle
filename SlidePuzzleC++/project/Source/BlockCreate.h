@@ -10,14 +10,14 @@ public:
 	void Update() override;
 	void Draw() override;
 
-	void GetMousePos();
 private:
-	int blockStage = 3;
+	int blockStage;
 	Block* blockArray[3][3];
 
 	void Create();
+	void GetMousePos();
+
 	int mouseX, mouseY;
-	VECTOR StartPos, EndPos;
-	MV1_COLL_RESULT_POLY hitPoly;
+	VECTOR startPos, endPos;
 	//ƒVƒƒƒbƒtƒ‹‚ÌŠÖ”
 };
